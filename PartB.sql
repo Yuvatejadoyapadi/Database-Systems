@@ -1,0 +1,18 @@
+-- INSERT INTO branch VALUES (4,"new-branch","street-11 Town of USA","+00 111 313 144 1313");
+-- SELECT * FROM branch;
+-- INSERT INTO membership VALUES (4,912,3,4);
+-- SELECT * FROM membership;
+-- UPDATE customer SET Name = 'updated name' WHERE Customer_ID = 1;
+-- SELECT * FROM customer;
+-- UPDATE branch SET Name = 'updated branch name' WHERE Branch_ID = 3;
+-- SELECT * FROM branch;
+-- DELETE FROM employee WHERE Employee_ID = 1;
+-- SELECT * FROM employee;
+-- SELECT * FROM customer WHERE Customer_ID = 2;
+-- SELECT * FROM employee JOIN branch WHERE branch.Branch_ID=employee.Branch_ID;
+-- SELECT * FROM customer JOIN membership WHERE customer.Customer_ID=membership.Customer_ID;
+-- SELECT COUNT(NAME) AS Total_Customers FROM customer;
+-- SELECT COUNT(NAME) AS Total_Employees FROM employee;
+-- SELECT SUM(CardNo) AS sum_cards FROM membership;
+-- SELECT * FROM customer,employee;
+
